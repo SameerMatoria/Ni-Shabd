@@ -77,7 +77,7 @@ const Footer = () => {
               <span className="font-semibold">Phone:</span> +1 234 567 890
             </li>
             <li>
-              <span className="font-semibold">Address:</span> 123 Greenfield Rd, Springfield
+              <span className="font-semibold">Address:</span> Govind Puram, Ghaziabad
             </li>
           </ul>
         </div>

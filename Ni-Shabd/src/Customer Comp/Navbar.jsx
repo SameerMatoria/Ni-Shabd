@@ -10,7 +10,7 @@ const Navbar = () => {
         </div>
 
         {/* Navigation Links */}
-        <ul className="hidden md:flex space-x-6">
+        <ul className="hidden md:flex space-x-6 text-lg">
           <li><a href="#home" className="text-white hover:text-yellow-600">Home</a></li>
           <li><a href="#products" className="text-white hover:text-yellow-600">Marketplace</a></li>
           <li><a href="#about" className="text-white hover:text-yellow-600">About</a></li>
@@ -19,15 +19,34 @@ const Navbar = () => {
 
         {/* Search Bar */}
         <div className="hidden lg:flex items-center space-x-2">
-          <input
-            type="text"
-            placeholder="Search crops, tools..."
-            className="w-64 px-4 py-2 border border-green-400 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-600"
-          />
-          <button className="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600">
-            Search
-          </button>
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Search crops, tools..."
+              className="w-64 px-4 py-2 pl-10 border border-green-400 rounded-xl focus:outline-none focus:ring-2 focus:ring-green-600"
+            />
+            <button
+              type="button"
+              className="absolute inset-y-0 left-3 flex items-center justify-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 text-green-600"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M21 21l-4.35-4.35m2.65-5.65a8 8 0 11-16 0 8 8 0 0116 0z"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
+
 
         {/* Icons */}
         <div className="flex items-center space-x-4">

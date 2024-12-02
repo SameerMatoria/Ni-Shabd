@@ -6,7 +6,7 @@ import {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
-} from "@/components/ui/carousel";
+} from "@/Customer Comp/ui/carousel";
 
 const MyCarousel = () => {
     const imageUrls = [
