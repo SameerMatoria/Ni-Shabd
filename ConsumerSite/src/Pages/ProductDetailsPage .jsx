@@ -1,7 +1,7 @@
-import Footer from "@/Customer Comp/Footer";
-import ItemCard from "@/Customer Comp/ItemCard";
-import Navbar from "@/Customer Comp/Navbar";
-import ProductFilter from "@/Customer Comp/ProductFilter"; // Import the ProductFilter component
+import Footer from "@/components/Footer";
+import ItemCard from "@/components/ItemCard";
+import Navbar from "@/components/Navbar";
+import ProductFilter from "@/components/ProductFilter"; // Import the ProductFilter component
 import React, { useState } from "react";
 
 const ProductDetailsPage = ({ product }) => {

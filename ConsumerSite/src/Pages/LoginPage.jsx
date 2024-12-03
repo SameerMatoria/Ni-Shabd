@@ -1,4 +1,4 @@
-import MiniFooter from "@/Customer Comp/MiniFooter";
+import MiniFooter from "@/components/MiniFooter";
 import React from "react";
 
 const LoginPage = () => {

@@ -1,10 +1,11 @@
 import { useState } from 'react'
-import { Button } from './Customer Comp/ui/button'
-import Home from './Consumer Pages/Home'
-import ProductDetailsPage from './Consumer Pages/ProductDetailsPage '
-import LoginPage from './Consumer Pages/LoginPage';
-import SignUpPage from './Consumer Pages/SignUpPage';
-import AboutPage from './Consumer Pages/AboutPage';
+import { Button } from './components/ui/button'
+import Home from './Pages/Home'
+import ProductDetailsPage from './Pages/ProductDetailsPage '
+import LoginPage from './Pages/LoginPage';
+import SignUpPage from './Pages/SignUpPage';
+import AboutPage from './Pages/AboutPage';
+import BillingPage from './Pages/BillingPage';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App() {
       {/* <LoginPage /> */}
       {/* <SignUpPage /> */}
       {/* <AboutPage/> */}
+      {/* <BillingPage/> */}
     </>
   )
 }

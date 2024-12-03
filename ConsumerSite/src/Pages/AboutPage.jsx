@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "@/Customer Comp/Footer";
-import Navbar from "@/Customer Comp/Navbar";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 
 const AboutPage = () => {
   return (

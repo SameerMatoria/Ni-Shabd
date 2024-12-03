@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from '@/Customer Comp/Navbar'
-import Acc from '@/Customer Comp/Acc'
-import MyCarousel from '@/Customer Comp/MyCarousel'
-import ItemCard from '@/Customer Comp/ItemCard'
-import Footer from '@/Customer Comp/Footer'
+import Navbar from '@/components/Navbar'
+import Acc from '@/components/Acc'
+import MyCarousel from '@/components/MyCarousel'
+import ItemCard from '@/components/ItemCard'
+import Footer from '@/components/Footer'
 
 
 function Home() {

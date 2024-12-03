@@ -1,0 +1,5 @@
+https://ui.shadcn.com/docs/installation/vite
+shad cn 
+npx shadcn@latest add button
+
+npm install recharts lucide-react
